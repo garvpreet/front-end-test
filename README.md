@@ -1,29 +1,87 @@
-# README #
+# Front-End Test
 
-This README would normally document whatever steps are necessary to get your application up and running.
+# INSTRUCTIONS
+Do as much as you can in 4 hours
+Create a responsive item list
+Use any front-end framework you want
+Use a state management if needed
+Use any plugins/addons that you need
+Create all necessary components needed
+Ensure that your code is flexible for future changes
 
-### What is this repository for? ###
+## Let's get started
+Use Lexend Exa from Google font for the entire website
+Add a fixed 2 colors 45° gradient background color
+Create a navigation:
+- Home -> /
+- My List -> /mylist
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Inside My List
+Load the JSON data with AJAX
+/item-list-1.json
+List each item in rows.
+For viewport >= 1200px, have 4 items per row.
+For viewport less than 576px, have 1 item per row
 
-### How do I get set up? ###
+## Per Item
+Each item should be displayed like the concept
+Add functionality on Remove button to remove item from list
+(No AJAX necessary)
+Add functionality on Select button.
+On active state, entire item component should be 50% transparent.
+On deactive state, entire item compentnt should be opaque
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## Functionalities (using VueX if possible)
+Create a function to display the total items
 
-### Contribution guidelines ###
+## Create an About page
+Add link to About page on the navigation
+Add the About page (/src/components/views/About.vue)
+Have the About page lazy load only if the page is called
 
-* Writing tests
-* Code review
-* Other guidelines
+## Add fancy bells and whistles
+Add CSS transitions to any (or all) hover state
 
-### Who do I talk to? ###
+## BONUS
+Add different meta description for each page
+Add 5 Jest Unit tests
+Add 5 Cypress.IO UI tests
 
-* Repo owner or admin
-* Other community or team contact
+
+# Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Run your end-to-end tests
+```
+npm run test:e2e
+```
+
+### Run your unit tests
+```
+npm run test:unit
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
